@@ -11,7 +11,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto text-center text-sm text-gray-400">
         {/* Logo / Title */}
         <div className="flex items-center justify-center gap-2 mb-4">
-          <img src="/favicon-96x96.png" alt="Logo" className="w-8 h-8" />
+          <img
+            src={`${import.meta.env.BASE_URL}/favicon-96x96.png`}
+            alt="Logo"
+            className="w-8 h-8"
+          />
           <span className="font-semibold">MemeCoinCalls</span>
         </div>
 

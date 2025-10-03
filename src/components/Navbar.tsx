@@ -29,7 +29,11 @@ export default function Navbar() {
           onClick={(e) => handleSmoothScroll(e, "top")}
           className="flex items-center gap-2"
         >
-          <img src="/favicon-96x96.png" alt="Logo" className="w-8 h-8" />
+          <img
+            src={`${import.meta.env.BASE_URL}/favicon-96x96.png`}
+            alt="Logo"
+            className="w-8 h-8"
+          />
           <span className="font-semibold">MemeCoinCalls</span>
         </button>
 
